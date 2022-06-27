@@ -1,0 +1,30 @@
+.content__btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  background-color: #3c44b12a;
+}
+
+.content__btn {
+  width: 20%;
+  padding: 16px;
+  color: #333996;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  margin: 0;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #636161;
+  }
+}
+
+.content__btn-tit {
+  &:hover {
+    color: #333996;
+  }
+}

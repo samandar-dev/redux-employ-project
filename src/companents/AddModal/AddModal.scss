@@ -1,0 +1,41 @@
+.addItem-messag {
+  position: fixed;
+  top: 75px;
+  right: 30px;
+  width: 350px;
+  height: 60px;
+  padding: 15px;
+  color: rgb(97, 26, 21);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+
+.check-messag {
+  font-size: 30px;
+  display: none;
+}
+
+#iconMass2 {
+  color: #f7293d;
+}
+
+#iconMass1 {
+  color: #2cc038;
+}
+
+.text-messag {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.remMesseg {
+  font-size: 40px;
+  color: #333;
+  background: transparent;
+  border: none;
+}
