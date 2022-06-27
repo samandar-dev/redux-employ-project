@@ -36,7 +36,7 @@ function Modal({ modal, add, setAdd, setModal, itemsID }) {
 
   const submitFunc = (e) => {
     e.preventDefault()
-    if (fName.length >= 3 && email.at(-1) === "@" && mobil.length >= 8 && categor !== "None") {
+    if (fName.length >= 3 && email.includes("@") && mobil.length >= 8 && categor !== "None") {
       dispatch(emplloyActions.addItemsFunc({
         name: fName,
         email: email,
