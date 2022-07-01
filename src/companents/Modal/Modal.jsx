@@ -6,6 +6,7 @@ import './Modal.scss'
 function Modal({ modal, add, setAdd, setModal, itemsID }) {
   const obj = useSelector((state) => state.employ)
   const dispatch = useDispatch()
+
   const [fName, setFName] = useState('')
   const [email, setEmail] = useState('')
   const [mobil, setmobil] = useState('')
@@ -94,7 +95,6 @@ function Modal({ modal, add, setAdd, setModal, itemsID }) {
     }
   }, [itemsID, add]);
 
-
   return (
     <>
       <div className={`modall ${modal ? "show-modal" : ""}`}>
@@ -147,9 +147,9 @@ function Modal({ modal, add, setAdd, setModal, itemsID }) {
               <div className="modal__right mright">
                 <div className="mright__gener">
                   <h4 className="mright__title">Gener</h4>
-                  <button className="mright__check"><span className="mright__check-span checkBtn-act" /> Male</button>
-                  <button className="mright__check"><span className="mright__check-span" /> Female</button>
-                  <button className="mright__check"><span className="mright__check-span" /> Other</button>
+                  <button className="mright__check" type='button'><span className="mright__check-span checkBtn-act" /> Male</button>
+                  <button className="mright__check" type='button'><span className="mright__check-span" /> Female</button>
+                  <button className="mright__check" type='button'><span className="mright__check-span" /> Other</button>
                 </div>
                 <div className="mright__main">
                   {/* <span className="mform__drop-tit">Departament</span> */}

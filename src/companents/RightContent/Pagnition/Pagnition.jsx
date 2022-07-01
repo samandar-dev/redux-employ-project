@@ -10,6 +10,8 @@ function Pagnition({ pagnitionID, setPagnitionID, pagnitionCount, setPagnitionCo
   const [count, setCount] = useState(1)
 
   const pagnitCount = (e) => {
+    setPagnitionID(1)
+    setCount(1)
     setPagnitionCount(+e.target.value)
   }
 

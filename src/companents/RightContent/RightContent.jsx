@@ -54,7 +54,7 @@ function RightContent({ pagnitionCount, setPagnitionCount, pagnitionID, setPagni
               </div>
             </div>
             <div className="content__btns">
-              <CategorBtns itemArr={itemArr} setItemArr={setItemArr} />
+              <CategorBtns arr={arr} setArr={setItemArr} />
             </div>
             <div className="content__list-box">
               <List
